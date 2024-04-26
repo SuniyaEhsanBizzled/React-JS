@@ -1,7 +1,18 @@
-async function a() {
-    await setTimeout(() => {
-      console.log("Welcome Back!")
-    }, 2000)
+// async function a() {
+//     await setTimeout(() => {
+//       console.log("Welcome Back!")
+//     }, 2000)
+// }
+// a()
+//   console.log("Hello")
+
+
+
+const getData = async () => {
+  let y = await "Hello World";
+  console.log(y);
 }
-a()
-  console.log("Hello")
+
+console.log(1);
+getData();
+console.log(2);
